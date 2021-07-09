@@ -56,17 +56,17 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-.topNav {
+header nav {
     display: flex;
     justify-content: space-between;
     width: 800px;
     margin: auto;
     margin-bottom: 40px;
     align-items: flex-end;
-
+    padding-right: 40px;
 }
 
-.topNav a {
+header nav a {
     text-decoration: none;
     color: black;
 }
@@ -193,4 +193,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+main {
+    width: 800px;
+    margin: auto;
 }
