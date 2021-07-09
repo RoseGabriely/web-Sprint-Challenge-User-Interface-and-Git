@@ -234,9 +234,16 @@ main {
     border-bottom: 1px dashed black;
     padding-bottom: 20px;
 }
+
 .top-boxes {
     display: flex;
 }
+
 .bottom-boxes {
     display: flex;
 }
+
+.workTogether {
+    padding: 30px;
+}
+
