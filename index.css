@@ -197,6 +197,7 @@ footer nav a {
 .about {
     padding: 20px;
     border-bottom: 1px dashed black;
+    margin-bottom: -10px;
 }
 
 main {
@@ -204,14 +205,14 @@ main {
     margin: auto;
 }
 
-.strategy-work {
+.content-boxes {
     display: flex;
     flex-direction: column;
     width: 50%;
     padding: 20px;
 }
 
-.strategy-work img {
+.content-boxes img {
     padding: 10px 0px 10px 0px;
 }
 
