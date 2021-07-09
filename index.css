@@ -195,7 +195,7 @@ footer nav a {
 }
 
 .about {
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     border-bottom: 1px dashed black;
     margin-bottom: -10px;
 }
@@ -222,6 +222,12 @@ main {
     border-radius: 10px;
     padding: 8px;
     margin-top: 20px;
+    transition: .3s
+}
+
+.learnMore:hover {
+    color: white;
+    background-color: black;
 }
 
 .border {
@@ -229,5 +235,8 @@ main {
     padding-bottom: 20px;
 }
 .top-boxes {
+    display: flex;
+}
+.bottom-boxes {
     display: flex;
 }
