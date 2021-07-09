@@ -194,6 +194,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
 main {
     width: 800px;
     margin: auto;
